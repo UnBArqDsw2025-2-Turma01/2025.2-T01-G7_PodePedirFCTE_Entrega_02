@@ -8,7 +8,7 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 
 ## Diagrama
 
-- explicação do diagrama
+COMPLEMENTAR
 
 ### Vantagens
 - Facilita a compreensão do **fluxo de interação** entre componentes.  
@@ -22,19 +22,15 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 
 ## Aplicação no projeto
 
-- explicação de como utilizamos o diagrama, insights, discussoes interessantes, aprofundamento em partes específicas do diagrama
-- pode criar novas seções aqui se necessário com ###, por exemplo: Dificuldades Encontradas pela equipe
+COMPLEMENTAR 
 
 ## Referências
 
-- colocar pelo menos uma!!
-
-Exemplo:
-
-> GOOGLE. Phase 3: Sketch. Disponível em: https://designsprintkit.withgoogle.com/methodology/phase3-sketch.
+- OMG. UML 2.5 Specification. Disponível em: https://www.omg.org/spec/UML/2.5.  
+- GOOGLE. Phase 3: Sketch. Disponível em: https://designsprintkit.withgoogle.com/methodology/phase3-sketch.  
 
 ## Histórico de Versões
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
-| 00/00/0000 |  `0.0`   | XXXXXXX | [`@`](https://github.com/) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  1.0   | Criação da sessão | [Guilherme Storch](https://github.com/storch7) | [`@`](https://github.com/) |   00/00/0000    |
