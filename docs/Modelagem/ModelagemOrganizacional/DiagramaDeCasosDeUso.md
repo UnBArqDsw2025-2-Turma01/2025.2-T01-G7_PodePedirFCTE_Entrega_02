@@ -33,7 +33,15 @@ Diagramas de casos de uso são geralmente chamados de diagramas de comportamento
 | :------------- | :--------- |
 | [Luiz](https://github.com/luizfaria1989) | Documentação da página de diagrama de casos de uso |
 | [Gabriela](https://github.com/gaubiela) | Documentação da página de diagrama de casos de uso |
-
+| [Ana Joyce](https://github.com/anajoyceamorim) | Revisão da documentação da página de diagrama de casos de uso |
+| [Ana Clara](https://github.com/anabborges) | Autora do diagrama |
+| [Ana Joyce](https://github.com/anajoyceamorim) | Autora do diagrama |
+| [Fábio](https://github.com/fabinsz) | Autor do diagrama |
+| [Gabriela](https://github.com/gaubiela) | Autora do diagrama |
+| [Guilherme Storch](https://github.com/storch7) | Autor do diagrama |
+| [Luiz Guilherme](https://github.com/luizfaria1989) | Autor do diagrama |
+| [Nathan](https://github.com/Nathan-bs) | Autor do diagrama |
+| [Rodrigo](https://github.com/rodrigoFAmaral) | Autor do diagrama |
 
 ## Aplicação no projeto
 
@@ -64,4 +72,4 @@ A modelagem foi feita com base nos três principais atores: Aluno(Cliente), Forn
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 21/09/2025 |  `1.0`   | Criação da página dos diagrama de casos de uso e da introdução. | [`@Luiz`](https://github.com/luizfaria1989) | [`@gaubiela`](https://github.com/gaubiela) |   21/09/2025    |
-| 21/09/2025 |  `1.1`   | Adição de conteúdo à documentação. | [`@Gabriela`](https://github.com/gaubiela) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.1`   | Adição de conteúdo à documentação. | [`@Gabriela`](https://github.com/gaubiela) | [`@Ana Joyce`](https://github.com/anajoyceamorim) |   21/09/2025    |
