@@ -47,5 +47,5 @@ Os componentes são construções estritamente lógicas em tempo de projeto. A i
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
-| 20/09/2025 |  `1.0`   | Criação da página do diagrama de componentes. | [`@Willian`](https://github.com/Wooo589) | [`@Luiz`](https://github.com/luizfaria1989) |   00/00/0000    |
+| 20/09/2025 |  `1.0`   | Criação da página do diagrama de componentes. | [`@Willian`](https://github.com/Wooo589) | [`@Luiz`](https://github.com/luizfaria1989) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Criação da introdução do artefato. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
