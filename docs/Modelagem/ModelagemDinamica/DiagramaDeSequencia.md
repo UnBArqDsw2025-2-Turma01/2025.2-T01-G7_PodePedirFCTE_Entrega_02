@@ -9,7 +9,16 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 ## Diagrama
 
 - explicação do diagrama
-- pode criar novas seções aqui se necessário com ###, por exemplo: Vantagens, Desvantagens
+
+### Vantagens
+- Facilita a compreensão do **fluxo de interação** entre componentes.  
+- Evidencia a ordem temporal das mensagens.  
+- Auxilia no refinamento dos requisitos e na identificação de responsabilidades.  
+
+### Desvantagens
+- Pode se tornar **complexo e pouco legível** em cenários com muitas interações.  
+- Exige atualização constante para se manter alinhado com o sistema real.  
+
 
 ## Aplicação no projeto
 
