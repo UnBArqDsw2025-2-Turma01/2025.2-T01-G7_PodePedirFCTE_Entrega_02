@@ -1,10 +1,10 @@
 # Diagrama de Casos de Uso
 
-# Introdução
+## Introdução
 
 Diagramas de casos de uso são geralmente chamados de diagramas de comportamento, eles são utilizados ​​para descrever um conjunto de ações (conhecidas por casos de uso) que um ou mais sistemas devem/podem executar em colaboração com um ou mais usuários externos do sistema (atores) <a id="anchor_1" onclick="document.getElementById('REF1').scrollIntoView()" style="cursor:pointer;">[1]</a>. Cada caso de uso deve fornecer algum resultado observável e valioso para os atores ou outras partes interessadas do sistema <a id="anchor_1" onclick="document.getElementById('REF1').scrollIntoView()" style="cursor:pointer;">[1]</a>.
 
-## Componentes do Diagrama de Estados
+## Componentes do Diagrama de Casos de Uso
 
 | **Nome do Componente** | **Significado** | **Representação** |
 | :--------------------- | : ------------- | : --------------- |
@@ -19,13 +19,27 @@ Diagramas de casos de uso são geralmente chamados de diagramas de comportamento
 <font size="3">Autor: [Luiz Guilherme](https://github.com/luizfaria1989), 2025.</font>
 
 # Diagrama Produzido
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/570ecf74-6248-4340-b38f-22b754ed6db6" id="UeKSK8r~XTxZ"></iframe></div>
+
+<img src="./DiagramaDeCasosDeUso/diagrama-caso-de-uso.png" alt="Diagrama de Casos de Uso" style="max-width:100%; height:auto;">
+<div align="center">
+  <font size="3">Figura 1 – Diagrama de Casos de Uso do sistema PodePedir</font>
+</div>
+
 
 ## Quadro de Participações
 
 | **Membro da equipe** | **Função** |
 | :------------- | :--------- |
 | [Luiz](https://github.com/luizfaria1989) | Documentação da página de diagrama de casos de uso |
+| [Gabriela](https://github.com/gaubiela) | Documentação da página de diagrama de casos de uso |
 
+
+## Aplicação no projeto
+
+O diagrama de casos de uso será utilizado como ferramenta central para representar as interações entre os atores externos e o sistema PodePedirFCTE. Ele nos permitiu visualizar de forma clara e objetiva quais funcionalidades o sistema deve oferecer e quais perfis de usuário interagem com cada parte do fluxo.
+
+A modelagem foi feita com base nos três principais atores: Aluno(Cliente), Fornecedor(Restaurante) e Entregador, para funções de gestão. Cada caso de uso foi desenhado com foco em entregar valor direto aos usuários.
 
 ---
 
@@ -49,4 +63,5 @@ Diagramas de casos de uso são geralmente chamados de diagramas de comportamento
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
-| 21/09/2025 |  `1.0`   | Criação da página dos diagrama de casos de uso e da introdução. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.0`   | Criação da página dos diagrama de casos de uso e da introdução. | [`@Luiz`](https://github.com/luizfaria1989) | [`@gaubiela`](https://github.com/gaubiela) |   21/09/2025    |
+| 21/09/2025 |  `1.1`   | Adição de conteúdo à documentação. | [`@Gabriela`](https://github.com/gaubiela) | [`@`](https://github.com/) |   00/00/0000    |
