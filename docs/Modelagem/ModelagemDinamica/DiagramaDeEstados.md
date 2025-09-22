@@ -63,7 +63,7 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 
 ## Visualização do Pedido para o Restaurante
 
-<img class="card-img img-fluid rounded" src="/DiagramasDeEstados/diagrama-de-estados-visualizacao-restaurante.png" title="Diagrama de estados para a visualização do restaurante" width=auto>
+<img class="card-img img-fluid rounded" src="DiagramasDeEstados/diagrama-de-estados-visualizacao-restaurante.png" title="Diagrama de estados para a visualização do restaurante" width=auto>
 
 <div  style="text-align: center">
 
