@@ -47,7 +47,7 @@ Uma das principais discussões durante a criação dos diagramas foi definir o n
 | **Membro da equipe** | **Função** |
 | :------------- | :--------- |
 | [Gabriela](https://github.com/gaubiela) | Elaboração do Diagrama e Revisão da Documentação |
-| [Ana Joyce](https://github.com/anajoyceamorim) | Elaboração do Diagrama e da Documentação |
+| [Ana Joyce](https://github.com/anajoyceamorim) | Elaboração do Diagrama e Documentação do Diagrama |
 
 ## Referências
 
