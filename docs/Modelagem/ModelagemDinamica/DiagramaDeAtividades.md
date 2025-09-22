@@ -42,6 +42,13 @@ A separação dos fluxos por ator também foi uma decisão de projeto importante
 
 Uma das principais discussões durante a criação dos diagramas foi definir o nível de detalhe adequado. Inicialmente, pensamos em criar um único diagrama abrangendo todos os atores, mas percebemos que ele se tornaria complexo e difícil de entender. A decisão de dividir o fluxo em três diagramas distintos, um para cada ator, foi crucial para manter a clareza e a legibilidade. Outro ponto de debate foi como representar a comunicação entre os diferentes atores, que embora separados em diagramas, interagem constantemente. Optamos por focar no fluxo de atividades de cada um, deixando os detalhes da comunicação para serem modelados em um Diagrama de Sequência.
 
+## Quadro de Participações
+
+| **Membro da equipe** | **Função** |
+| :------------- | :--------- |
+| [Gabriela](https://github.com/gaubiela) | Elaboração do Diagrama e Revisão da Documentação |
+| [Ana Joyce](https://github.com/anajoyceamorim) | Elaboração do Diagrama e da Documentação |
+
 ## Referências
 
 > FOWLER, Martin. UML Distilled: A Brief Guide to the Standard Object Modeling Language. 3. ed. Boston: Addison-Wesley, 2004.
