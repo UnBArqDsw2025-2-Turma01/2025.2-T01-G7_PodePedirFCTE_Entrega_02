@@ -8,9 +8,9 @@ O diagrama de estados é um tipo de diagrama dinâmico que procura representar o
 
 | **Nome do Componente** | **Significado** | **Representação** |
 | :---------------------- | :-------------- | :---------------- |
-| **Estado Simples** | Um estado simples é um tipo de estado que **não apresenta subestados**, não possui regiões ou submáquinas de estado. Esse componente é representado por um **retângulo de cantos arredondados** com o nome do estado dentro do retângulo <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/Componentes/estado-componente.png" title="Componente estado" width="150"> |
-| **Pseudoestado Inicial** | Um pseudoestado inicial é responsável por representar um **vértice padrão** que é a fonte de uma única transição para o estado padrão de um estado composto. Ele é representado por um **círculo pequeno preenchido** por uma cor sólida <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/Componentes/inicio-componente.png" title="Componente de início" width="100"> |
-| **Estado Final** | O estado final representa um tipo especial de estado utilizado para **sinalizar a conclusão** da região envolvente. Se essa região estiver contida em uma máquina de estados e todas as demais regiões também estiverem completas, isso significa que **toda a máquina de estados está completa** <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/Componentes/final-componente.png" title="Componente final" width="100"> |
+| **Estado Simples** | Um estado simples é um tipo de estado que **não apresenta subestados**, não possui regiões ou submáquinas de estado. Esse componente é representado por um **retângulo de cantos arredondados** com o nome do estado dentro do retângulo <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="DiagramasDeEstados/Componentes/estado-componente.png" title="Componente estado" width="150"> |
+| **Pseudoestado Inicial** | Um pseudoestado inicial é responsável por representar um **vértice padrão** que é a fonte de uma única transição para o estado padrão de um estado composto. Ele é representado por um **círculo pequeno preenchido** por uma cor sólida <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="DiagramasDeEstados/Componentes/inicio-componente.png" title="Componente de início" width="100"> |
+| **Estado Final** | O estado final representa um tipo especial de estado utilizado para **sinalizar a conclusão** da região envolvente. Se essa região estiver contida em uma máquina de estados e todas as demais regiões também estiverem completas, isso significa que **toda a máquina de estados está completa** <a id="anchor_2" onclick="document.getElementById('REF2').scrollIntoView()" style="cursor:pointer;">[2]</a>. | <img class="card-img img-fluid rounded" src="DiagramasDeEstados/Componentes/final-componente.png" title="Componente final" width="100"> |
 
 
 <font size="3">Autor: [Luiz Guilherme](https://github.com/luizfaria1989),[Fábio Gabriel](https://github.com/fabinsz) 2025.</font>
@@ -33,7 +33,7 @@ Para o desenvolvimento dos diagramas de estados, foi combinado com os integrante
 
 ## Visualização do Pedido para o Cliente
 
-<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-visualizacao-cliente.png" title="Diagrama de estados para a visualização do cliente" width=auto>
+<img class="card-img img-fluid rounded" src="DiagramasDeEstados/diagrama-de-estados-visualizacao-cliente.png" title="Diagrama de estados para a visualização do cliente" width=auto>
 
 <div  style="text-align: center">
 
@@ -63,7 +63,7 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 
 ## Visualização do Pedido para o Restaurante
 
-<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-visualizacao-restaurante.png" title="Diagrama de estados para a visualização do restaurante" width=auto>
+<img class="card-img img-fluid rounded" src="/DiagramasDeEstados/diagrama-de-estados-visualizacao-restaurante.png" title="Diagrama de estados para a visualização do restaurante" width=auto>
 
 <div  style="text-align: center">
 
@@ -108,7 +108,7 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 
 ## Visualização do Pedido para o Entregador
 
-<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-visualizacao-entregador.png" title="Diagrama de estados para a visualização do entregador" width=auto>
+<img class="card-img img-fluid rounded" src="DiagramasDeEstados/diagrama-de-estados-visualizacao-entregador.png" title="Diagrama de estados para a visualização do entregador" width=auto>
 
 <div  style="text-align: center">
 
@@ -156,7 +156,7 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 
 Por fim, foi desenvolvido um último diagrama que tem como objetivo representar qual é o ciclo de vida de uma conta de usuário ao utilizar o aplicativo.
 
-<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-conta.png" title="Diagrama de estados para a visualização do Ciclo de Vida de uma Conta de Usuário no App" width=auto>
+<img class="card-img img-fluid rounded" src="DiagramasDeEstados/diagrama-de-estados-conta.png" title="Diagrama de estados para a visualização do Ciclo de Vida de uma Conta de Usuário no App" width=auto>
 
 <div  style="text-align: center">
 
