@@ -17,7 +17,7 @@ Os componentes são construções estritamente lógicas em tempo de projeto. A i
 
 ## Diagrama de Componentes do PodePedirFCTE
 
-![Diagrama de componentes do projeto PodePedirFCTE](../assets/#)
+![Diagrama de componentes](<../../DiagramaDeComponentes/assets/Diagrama de componentes.png>)
 <div align="center">
 <strong>Figura 1</strong> – Diagrama de componentes do projeto PodePedirFCTE.
 </div>
@@ -48,4 +48,5 @@ Os componentes são construções estritamente lógicas em tempo de projeto. A i
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página do diagrama de componentes. | [`@Willian`](https://github.com/Wooo589) | [`@Luiz`](https://github.com/luizfaria1989) |   21/09/2025    |
-| 21/09/2025 |  `1.1`   | Criação da introdução do artefato. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.1`   | Criação da introdução do artefato. | [`@Luiz`](https://github.com/luizfaria1989) | [`@Cayoalencar`](https://github.com/Cayoalencar) |   21/09/2025    |
+| 21/09/2025 |  `1.2`   | Inclusão da foto do diagrama. | [`@Cayoalencar`](https://github.com/Cayoalencar) | [`@`](https://github.com/) |   00/00/0000    |
