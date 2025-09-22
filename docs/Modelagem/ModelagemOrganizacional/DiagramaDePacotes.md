@@ -1,15 +1,26 @@
-## Diagramas de Pacotes UML
+## Diagrama de Pacotes
 
-<div style="text-align: justify;">
+## Introdução
 
 Os **diagramas de pacotes** da UML são uma ferramenta fundamental na engenharia de software para organizar e visualizar a estrutura de sistemas complexos. Eles permitem que os desenvolvedores agrupem elementos relacionados, como classes ou casos de uso, em pacotes, tornando modelos grandes mais gerenciáveis e esclarecendo as dependências entre diferentes partes de um sistema.O Diagrama de Pacotes é a "planta baixa do código", mostrando como os arquivos e pastas são organizados antes mesmo de o programa ser construído.
 
-### Diagrama de Pacotes Pode Pedir FCTE:
+## Diagrama
+
+### Componentes do Diagrama
+
+Para ler e criar o diagrama, você precisa entender seus símbolos principais:
+
+| **Nome do Componente** | **Significado** | **Representação** |
+| :--- | :--- | :--- |
+| Aninhamento (Nesting) | A hierarquia de pastas e sub-pastas. | ![Nesting](../../DiagramaDePacotes/nest.png)  |
+| Dependência (Dependency) | A relação `<<import>>` ou `<<use>>`. Mostra que o código na origem usa o código no destino. | ![Dependência](../../DiagramaDePacotes/dependency.png)  |
+| Pacote (Package) | Um namespace, um módulo ou um diretório no seu código-fonte. | ![Pacote](../../DiagramaDePacotes/package-inside.png) |
+
+## Aplicação no projeto
 ![Diagrama de pacotes](<../../DiagramaDePacotes/diagrama de pacotes.png>)
-
-
-
-
+<div align="center">
+<strong>Figura 1</strong> – Diagrama de pacotes do projeto PodePedirFCTE.
+</div>
 
 ### Análise Funcional da Arquitetura de Pacotes
 
@@ -35,7 +46,7 @@ O `Backend` representa o cérebro do sistema. É um pacote de aplicação do lad
     * **Outros Gerenciadores:** Pacotes como `Pagamentos`, `Entregas`, `Avaliações` e `Notificações` são serviços especializados que executam tarefas específicas.
 * **Relações:**
     * **Dependência Externa:** Assim como os outros, o `Backend` depende do `SharedKernel` para entender os DTOs recebidos dos clientes e para construir as respostas.
-    * **Dependências Internas:** O `Orquestrador de pedidos` é o principal cliente dos outros gerenciadores. Um fluxo típico seria: o `Orquestrador` consulta o `Gerenciador de Contas` e o `Gerenciador de Restaurantes` para validar os dados do pedido; em seguida, aciona o `Gerencia  * **Comunicação com o `Backend`:** É crucial observar que **não há uma seta de dependência de código-fonte** para o pacote `Backend`. A comunicação é uma dependência de *runtime*, realizada através de chamadas de rede (API via HTTP/HTTPS) para os endpoints expostos pela camada de apresentação do dor de Pagamentos` para a transação e, se bem-sucedido, invoca o `Gerenciador de Entregas` para iniciar a logística, utilizando o `Gerenciador de Notificações` para comunicar cada etapa. Esta orquestração interna é o que define o comportamento do sistema.
+    * **Dependências Internas:** O `Orquestrador de pedidos` é o principal cliente dos outros gerenciadores. Um fluxo típico seria: o `Orquestrador` consulta o `Gerenciador de Contas` e o `Gerenciador de Restaurantes` para validar os dados do pedido; em seguida, aciona o `Gerencia  * **Comunicação com o `Backend`:** É crucial observar que **não há uma seta de dependência de código-fonte** para o pacote `Backend`. A comunicação é uma dependência de runtime, realizada através de chamadas de rede (API via HTTP/HTTPS) para os endpoints expostos pela camada de apresentação do dor de Pagamentos` para a transação e, se bem-sucedido, invoca o `Gerenciador de Entregas` para iniciar a logística, utilizando o `Gerenciador de Notificações` para comunicar cada etapa. Esta orquestração interna é o que define o comportamento do sistema.
 
 #### 3. Os Pacotes de Aplicação Cliente (`AppEstudante`, `AppRestaurante`, `AppEntregador`)
 
@@ -47,29 +58,29 @@ Estes pacotes representam as aplicações independentes que são instaladas nos 
     
     * **Independência Mútua:** Os pacotes de aplicação são completamente independentes entre si. Uma alteração no `AppEstudante` não tem impacto algum no código-fonte do `AppEntregador`, garantindo total autonomia para as equipes de desenvolvimento de cada plataforma.
 
-### Os Elementos Visuais de um Diagrama de Pacotes
-
-Para ler e criar o diagrama, você precisa entender seus símbolos principais:
-
-| Elemento | Símbolo Visual | O que Representa no Seu Projeto |
-| :--- | :--- | :--- |
-| **Pacote (Package)** | Um ícone de pasta de arquivos. | Um namespace, um módulo ou um diretório no seu código-fonte. Ex: O pacote `Backend` ou o sub-pacote `DTOs`. |
-| **Dependência (Dependency)** | Uma seta tracejada (`-->`) | A relação `<<import>>` ou `<<use>>`. Mostra que o código na origem usa o código no destino. Ex: `AppEstudante --> SharedKernel`. |
-| **Aninhamento (Nesting)** | Um pacote desenhado dentro de outro. | A hierarquia de pastas e sub-pastas. Ex: O pacote `Backend` contendo o sub-pacote `Orquestrador de pedidos`. |
-
-
-## Diagramas de Pacotes UML
-| Versão | Data | Autor(es) | Principais Alterações |
-| :--- | :--- | :--- | :--- |
-| **1.0.0** | 21-09-2025 | [@Cayoalencar](https://github.com/Cayoalencar) | **`Incluindo documentação e o diagrama de pacotes`**
-|        |            |          |                                                                                                                                                                                                                                                          | 
+### Quadro de Participações
+| **Membro da Equipe**                             | **Função** |
+| :--------------------------------------------| |
+| [Cayo](https://github.com/Cayoalencar)              | Versão inicial da documentação e inclusão do diagrama de pacotes |
+| [Willian](https://github.com/Wooo589)               | Versão final da documentação e adição de elementos na tabela de componentes |
 
 ## Referências bibliográficas
 
-1. **Ozkaya, M.; Erata, F.** A survey on the practical use of UML for different software architecture viewpoints. *Information and Software Technology*, v. 121, p. 106275, 2020. DOI: [10.1016/j.infsof.2020.106275](https://doi.org/10.1016/j.infsof.2020.106275).
+> **AMBLER, S.** UML Package Diagrams. 2005. p. 73-79. DOI: [10.1017/CBO9780511817533.007](https://doi.org/10.1017/CBO9780511817533.007).
 
-2. **Osis, J.; Donins, U.** Structuring Logical Layout of Software Design. 2017. p. 233-237. DOI: [10.1016/B978-0-12-805476-5.00010-1](https://doi.org/10.1016/B978-0-12-805476-5.00010-1).
+> **FAKHROUTDINOV, K.** UML Package Diagrams Overview. **uml-diagrams.org**, 2009. Disponível em: https://www.uml-diagrams.org/package-diagrams-overview.html. **Acesso em 21 set. 2025.**
 
-3. **Ambler, S.** UML Package Diagrams. 2005. p. 73-79. DOI: [10.1017/CBO9780511817533.007](https://doi.org/10.1017/CBO9780511817533.007).
+> **OSIS, J.; DONINS, U.** Structuring Logical Layout of Software Design. 2017. p. 233-237. DOI: [10.1016/B978-0-12-805476-5.00010-1](https://doi.org/10.1016/B978-0-12-805476-5.00010-1).
 
-</div>
+> **OZKAYA, M.; ERATA, F.** A survey on the practical use of UML for different software architecture viewpoints. *Information and Software Technology*, v. 121, p. 106275, 2020. DOI: [10.1016/j.infsof.2020.106275](https://doi.org/10.1016/j.infsof.2020.106275).
+
+> **Visual Paradigm.** What is Package Diagram? 2019. Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-package-diagram/. **Acesso em 21 set. 2025.**
+
+
+
+## Histórico de Versões
+
+| **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
+| :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
+| 21/09/2025 |  `1.0`   | Inclusão da documentação e o diagrama de pacotes | [`@Cayo`](https://github.com/Cayoalencar) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
+| 21/09/2025 |  `1.1`   | Ajustes na formatação do documento e adição de elementos na tabela de componentes | [`@Willian`](https://github.com/Wooo589) | [`@Cayo`](https://github.com/Cayoalencar) |   21/09/2025    |
