@@ -24,6 +24,14 @@ Para o projeto "PodePedirFCTE", o Diagrama de Implantação será utilizado para
 
 Essa modelagem é crucial para o planejamento da infraestrutura, para entender os requisitos de hardware levantados, identificar gargalos de desempenho e garantir a escalabilidade e a segurança do sistema.
 
+## Quadro de Participações
+
+| **Membro da equipe** | **Função** |
+| :------------- | :--------- |
+| [Ana Joyce](https://github.com/anajoyceamorim) | Elaboração do Diagrama e Documentação do Diagrama |
+| [Gabriela](https://github.com/gaubiela) | Elaboração do Diagrama e Revisão da Documentação |
+| [João](https://github.com/Joao151104) | Elaboração do Diagrama e Revisão da Documentação |
+
 ## Referências
 
 > LEITE, Rodrigo M. **Curso de UML - Diagrama de Implantação**. YouTube, 27 de maio de 2020. Disponível em: <https://www.youtube.com/watch?v=DgERD0HgggQ>. Acesso em: 22 set. 2025.
