@@ -21,7 +21,9 @@ O uso de diagramas de classes traz vantagens importantes para uma organização,
 O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relações e responsabilidades de cada componente.
 
 <p align="center">
-  <img src="../../img/classes.svg" alt="Diagrama" width="800"/>
+
+  ![Diagrama de Classes](../../img/classes.svg)
+
 </p>
 
 ### Classes
@@ -31,7 +33,8 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 #### Usuário
 
 
-<img src="../../img/Classes/Usuário.svg" alt="Usuario" width="200"/>
+![Usuario](../../img/Classes/Usuário.svg)
+
 
 - A classe Usuário é pai das classes Aluno, Entregador, Fornecedor;
 - A classe possui os atributos necessários entre todos as classes-filho para que um usuário tenha uma conta no sistema;
@@ -39,21 +42,23 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 #### Aluno
 
-<img src="../../img/Classes/Aluno.svg" alt="Aluno" width="200"/>
+![Aluno](../../img/Classes/Aluno.svg)
 
 - A classe Aluno é herdeira da classe Usuário;
 - Ela possui atributos necessários para criar uma conta especificamente de Aluno;
 
 #### Entregador
 
-<img src="../../img/Classes/Entregador.svg" alt="Entregador" width="200"/>
+
+![Entregador](../../img/Classes/Entregador.svg)
 
 - A classe Entregador é herdeira da classe Usuário;
 - Ela possui atributos necessários para criar uma conta especificamente de Entregador;
 
 #### Pagamento
 
-<img src="../../img/Classes/Pagamento.svg" alt="Pagamento" width="200"/>
+
+![Pagamento](../../img/Classes/Pagamento.svg)
 
 - Classe que gerencia o processo de pagamento entre fornecedores e alunos;
 - A Classe Aluno se relaciona com a Classe Pagamento por Agregação;
@@ -61,61 +66,70 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 #### Fornecedor
 
-<img src="../../img/Classes/Fornecedor.svg" alt="Fornecedor" width="200"/>
+
+![Fornecedor](../../img/Classes/Fornecedor.svg)
 
 - A classe Fornecedor é herdeira da classe Usuário;
 - Ela possui atributos necessários para criar uma conta especificamente de Fornecedor;
 
 #### CartaoPagamento
 
-<img src="../../img/Classes/CartaoPagamento.svg" alt="CartaoPagamento" width="200"/>
+
+![CartaoPagamento](../../img/Classes/CartaoPagamento.svg)
 
 - Classe que se relaciona com a Classe Aluno por Agregação;
 - O objetivo é armazenar uma listagem de Cartões que um aluno venha ter.
 
 #### Enum_Tipo
 
-<img src="../../img/Classes/Enum_Tipo.svg" alt="Enum Tipo" width="200"/>
+
+![Enum_Tipo](../../img/Classes/Enum_Tipo.svg)
 
 - Enumeration que encapsula as tipologias de cartões;
 
 #### Enum_Status_Pagamento
 
-<img src="../../img/Classes/Enum_Status_Pagamento.svg" alt="Status pagamento" width="200"/>
+
+![Enum_Status_Pagamento](../../img/Classes/Enum_Status_Pagamento.svg)
 
 - Enumeration que encapsula os status de pagamento;
 
 #### Enum_Status_Entrega
 
-<img src="../../img/Classes/Enum_Status_Entrega.svg" alt="Status entrega" width="200"/>
+
+![Enum_Status_Entrega](../../img/Classes/Enum_Status_Entrega.svg)
 
 - A classe Enum_Status_Entrega é um enum e possui instâncias fixas;
 - A classe representa os possíveis status que uma entrega pode se encontrar.
 
 #### Enum_Tipo_Pagamento
 
-<img src="../../img/Classes/Enum_Tipo_Pagamento.svg" alt="tipo pagamento" width="200"/>
+
+![Enum_Tipo_Pagamento](../../img/Classes/Enum_Tipo_Pagamento.svg)
 
 - Enumeration que encapsula os tipos de pagamento;
 
 
 #### Cardapio
 
-<img src="../../img/Classes/Cardapio.svg" alt="Cardapio" width="200"/>
+
+![Cardapio](../../img/Classes/Cardapio.svg)
 
 - A classe Cardápio representa os Cardapios que um fornecedor pode cadastrar no aplicativo;
 - Os atributos dela representam informações que o fornecedor apresentará ao sistema para instânciar um objeto.
 
 #### Item
 
-<img src="../../img/Classes/item.svg" alt="item" width="200"/>
+
+![item](../../img/Classes/item.svg)
 
 - A classe Item representa cada itens do cardápio dos restaurantes;
 - Os atributos dela representam informações que o fornecedor apresentará ao sistema para instânciar um objeto.
 
 #### Pedido
 
-<img src="../../img/Classes/Pedido.svg" alt="Pedido" width="200"/>
+
+![Pedido](../../img/Classes/Pedido.svg)
 
 - A classe Pedido representa os pedidos que são feitos pelos compradores;
 - Ela possui atributos de interesse dos compradores.
