@@ -22,7 +22,7 @@ Para o projeto "PodePedirFCTE", o Diagrama de Implantação será utilizado para
 - **Nó do Banco de Dados:** Um servidor dedicado (ou serviço de banco de dados gerenciado) que armazenará todos os dados da aplicação, como informações de usuários, restaurantes, cardápios e pedidos.
 - **Comunicação:** As conexões de rede entre esses nós, como o protocolo HTTPS para a comunicação entre os aplicativos móveis/web e a API.
 
-Essa modelagem é crucial para o planejamento da infraestrutura, para entender os requisitos de hardware, identificar gargalos de desempenho e garantir a escalabilidade e a segurança do sistema.
+Essa modelagem é crucial para o planejamento da infraestrutura, para entender os requisitos de hardware levantados, identificar gargalos de desempenho e garantir a escalabilidade e a segurança do sistema.
 
 ## Referências
 
@@ -32,4 +32,5 @@ Essa modelagem é crucial para o planejamento da infraestrutura, para entender o
 
 | **Data** | **Versão** | **Descrição** | **Autor** | **Revisor** | **Data da Revisão** |
 | :---: | :---: | :--- | :---: | :---: | :---: |
+| 22/09/2025 | '1.0' |Revisão do documento | @Joao151104 | :--: | :---: |
 | 22/09/2025 | `1.0` | Criação da versão inicial do documento | [`@anajoyceamorim`](https://github.com/anajoyceamorim) | [`@gaubiela`](https://github.com/gaubiela) | 22/09/2025 |
