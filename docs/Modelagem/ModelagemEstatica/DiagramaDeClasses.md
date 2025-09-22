@@ -22,7 +22,7 @@ O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relaçõe
 
 <p align="center">
 
-  ![Diagrama de Classes](../../img/classes.svg)
+  ![Diagrama de Classes](../../img/classes.png)
 
 </p>
 
