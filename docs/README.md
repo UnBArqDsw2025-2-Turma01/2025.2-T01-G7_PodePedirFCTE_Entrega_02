@@ -27,6 +27,8 @@ PodePedirFCTE é um aplicativo que permite que alunos da FCTE peçam comidas de 
 Aqui são encontrados alguns dos artefatos produzidos durante a Segunda Entrega, mais artefatos podem ser encontrados nas páginas.
 
 <!-- Lembre-se de adicionar o caminho para sua imagem aqui. Ex: ![](./assets/screenshot.png) -->
+![Diagrama de Casos de Uso](DiagramaDeCasosDeUso/diagrama-caso-de-uso.png)
+![Diagrama de Classes](img/classes.svg)
 
 ## Há algo a ser executado?
 
