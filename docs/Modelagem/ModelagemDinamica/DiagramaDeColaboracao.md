@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O **diagrama de colaboração** é um tipo de diagrama de interação da UML (Unified Modeling Language) utilizado para representar como os objetos e/ou partes colaboram entre si em um cenário de uso do sistema.
+O **diagrama de colaboração** é um tipo de diagrama de interação da UML (Unified Modeling Language) utilizado para representar como os objetos e/ou partes colaboram entre si em um cenário de uso do sistema. (IBM)
 
 Ele mostra as interações entre os objetos por meio de mensagens sequenciadas, em uma disposição mais livre, sem depender de uma linha temporal explícita. Dessa forma, enfatiza as conexões e colaborações entre os elementos envolvidos para realizar uma funcionalidade específica.
 
@@ -26,6 +26,9 @@ Esse diagrama corresponde a um **diagrama de sequência simplificado**, pois amb
 | Frame | Representa o fluxo de uma interação | ![Frame](../../assets/frame.png) |
 | Lifeline | Elemento nomeado que representa um participante individual na interação | ![Lifeline](../../assets/lifeline.png) |
 | Message | Uma linha de expressão sequencial com uma seta que indica a direção da comunicação | ![Message](../../assets/message.png) |
+<div align="center">
+<strong>Tabela 1</strong> – Tabela de componentes do Diagrama - Fonte: <a href="https://www.uml-diagrams.org/communication-diagrams.html">uml-diagrams</a>
+</div>
 
 ## Aplicação no projeto
 
@@ -151,8 +154,6 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 ## Referências Bibliográficas
 
 > FAKHROUTDINOV, Klirill. UML Communication Diagrams Overview. **uml-diagrams.org**, 2009. Disponível em: https://www.uml-diagrams.org/communication-diagrams.html. **Acesso em 20 set. 2025.**
-
-> GOOGLE. Phase 3: Sketch. Disponível em: https://designsprintkit.withgoogle.com/methodology/phase3-sketch.
 
 > GUEDES, Gilleanes T. A. *UML 2: Uma abordagem prática*. 2. ed. São Paulo: Novatec, 2011.  
 
