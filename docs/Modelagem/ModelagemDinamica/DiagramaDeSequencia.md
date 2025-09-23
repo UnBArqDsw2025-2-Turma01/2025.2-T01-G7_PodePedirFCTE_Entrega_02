@@ -99,9 +99,11 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 - Pode se tornar **complexo e pouco legível** em cenários com muitas interações.
 - Exige atualização constante para se manter alinhado com o sistema real.
 
-## Aplicação no projeto
+## Quadro de Participações
 
-COMPLEMENTAR
+| **Membro da equipe**                           | **Função**                        |
+| :--------------------------------------------- | :-------------------------------- |
+| [Nathan Batista](https://github.com/Nathan-bs) | Autor do diagramas e documentação |
 
 ## Referências
 
@@ -112,4 +114,4 @@ COMPLEMENTAR
 |  **Data**  | **Versão** | **Descrição**                                                  |                   **Autor**                    |        **Revisor**         | **Data da Revisão** |
 | :--------: | :--------: | :------------------------------------------------------------- | :--------------------------------------------: | :------------------------: | :-----------------: |
 | 21/09/2025 |    1.0     | Criação da sessão                                              | [Guilherme Storch](https://github.com/storch7) | [`@`](https://github.com/) |     00/00/0000      |
-| 21/09/2025 |    1.1     | Criação dos diagramas de sequência referentes aos casos de uso | [Nathan Batista](https://github.com/Nathan-bs) | [`@`](https://github.com/) |     00/00/0000      |
+| 22/09/2025 |    1.1     | Criação dos diagramas de sequência referentes aos casos de uso | [Nathan Batista](https://github.com/Nathan-bs) | [`@`](https://github.com/) |     00/00/0000      |
