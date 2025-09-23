@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O **diagrama de colaboração** é um tipo de diagrama de interação da UML (Unified Modeling Language) utilizado para representar como os objetos e/ou partes colaboram entre si em um cenário de uso do sistema.
+O **diagrama de colaboração** é um tipo de diagrama de interação da UML (Unified Modeling Language) utilizado para representar como os objetos e/ou partes colaboram entre si em um cenário de uso do sistema. (IBM)
 
 Ele mostra as interações entre os objetos por meio de mensagens sequenciadas, em uma disposição mais livre, sem depender de uma linha temporal explícita. Dessa forma, enfatiza as conexões e colaborações entre os elementos envolvidos para realizar uma funcionalidade específica.
 
@@ -26,10 +26,15 @@ Esse diagrama corresponde a um **diagrama de sequência simplificado**, pois amb
 | Frame | Representa o fluxo de uma interação | ![Frame](../../assets/frame.png) |
 | Lifeline | Elemento nomeado que representa um participante individual na interação | ![Lifeline](../../assets/lifeline.png) |
 | Message | Uma linha de expressão sequencial com uma seta que indica a direção da comunicação | ![Message](../../assets/message.png) |
+<div align="center">
+<strong>Tabela 1</strong> – Tabela de componentes do Diagrama - Fonte: <a href="https://www.uml-diagrams.org/communication-diagrams.html">uml-diagrams</a>
+</div>
 
 ## Aplicação no projeto
 
-O diagrama de colaboração foi criado pensando em algumas das interações que serão necessárias no projeto PodePedirFCTE.
+- O diagrama de colaboração foi dividido entre 3 membros da equipe, que trabalharam individualmente em diferentes interações. O contato foi mantido por mensagens para dúvidas e feedbacks da modelagem.
+- Para a criação do diagrama, os membros levaram em consideração tópicos debatidos na [Design Sprint](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.DesignSprint) realizada na [Entrega 1 do projeto](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/), com um foco especial nas etapas [Decide](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.4.Decide) e [Prototype](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.5.Prototype), onde houve uma maior tomada de decisões por parte do grupo;
+- Como ferramenta para a modelagem foi o utilizado o [Draw.io](https://www.drawio.com/).
 
 ### Interação "Fazer_Pedido"
 ![Diagrama de colaboração do projeto PodePedirFCTE](../../assets/Diagrama%20de%20Colaboração-fazer-pedidos.jpg)
@@ -38,19 +43,19 @@ O diagrama de colaboração foi criado pensando em algumas das interações que 
 </div>
 
 A interação Fazer Pedido conta com os seguintes elementos (lifelines):
-- **:Comprador**: O usuário que está fazendo o pedido.
+- **Comprador**: O usuário que está fazendo o pedido.
 
-- **:Interface do Comprador**: A aplicação frontend no dispositivo do comprador.
+- **Interface do Comprador**: A aplicação frontend no dispositivo do comprador.
 
-- **:Servidor do Aplicativo**: O sistema backend que processa toda a lógica.
+- **Servidor do Aplicativo**: O sistema backend que processa toda a lógica.
 
-- **:Banco de Dados**: Armazena todos os dados persistentes (usuários, pedidos, restaurantes, itens).
+- **Banco de Dados**: Armazena todos os dados persistentes (usuários, pedidos, restaurantes, itens).
 
-- **:Sistema de Pagamento**: Serviço externo para processar transações financeiras.
+- **Sistema de Pagamento**: Serviço externo para processar transações financeiras.
 
-- **:Interface do Fornecedor**: A aplicação frontend usada pelo restaurante para gerenciar pedidos.
+- **Interface do Fornecedor**: A aplicação frontend usada pelo restaurante para gerenciar pedidos.
 
-- **:Interface do Entregador**: A aplicação frontend usada pelo motorista de entrega.
+- **Interface do Entregador**: A aplicação frontend usada pelo motorista de entrega.
 
 ### Interação "Entregar_Pedido"
 ![Diagrama de colaboração do projeto PodePedirFCTE](../../assets/Diagrama%20de%20Colaboração-Entregador.png)
@@ -150,8 +155,6 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 
 > FAKHROUTDINOV, Klirill. UML Communication Diagrams Overview. **uml-diagrams.org**, 2009. Disponível em: https://www.uml-diagrams.org/communication-diagrams.html. **Acesso em 20 set. 2025.**
 
-> GOOGLE. Phase 3: Sketch. Disponível em: https://designsprintkit.withgoogle.com/methodology/phase3-sketch.
-
 > GUEDES, Gilleanes T. A. *UML 2: Uma abordagem prática*. 2. ed. São Paulo: Novatec, 2011.  
 
 > IBM. Communication diagrams. **IBM Developer**, fev.2023. Disponivel em: https://www.ibm.com/docs/en/dma?topic=diagrams-communication. **Acesso em: 20 set. 2025.**
@@ -171,3 +174,5 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 | 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.3`   | Adiciona Tabela de Elementos e de Contribuição. | [`@Ana Clara`](https://github.com/anabborges) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
 | 21/09/2025 |  `1.4`   | Adiciona Interação Solicitar Pedido. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
+| 22/09/2025 |  `1.5`   | Altera diagrama de Fazer Pedidos e do Entregador. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   22/09/2025    |
+| 22/09/2025 |  `1.6`   | Adiciona tópicos de aplicação no projeto. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   22/09/2025    |
