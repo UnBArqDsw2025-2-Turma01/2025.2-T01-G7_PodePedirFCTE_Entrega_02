@@ -4,6 +4,11 @@
 
 Os **diagramas de pacotes** da UML são uma ferramenta fundamental na engenharia de software para organizar e visualizar a estrutura de sistemas complexos. Eles permitem que os desenvolvedores agrupem elementos relacionados, como classes ou casos de uso, em pacotes, tornando modelos grandes mais gerenciáveis e esclarecendo as dependências entre diferentes partes de um sistema.O Diagrama de Pacotes é a "planta baixa do código", mostrando como os arquivos e pastas são organizados antes mesmo de o programa ser construído.
 
+## Aplicação ao Projeto
+O diagrama de pacotes da Entrega 2 foi construído a partir dos artefatos desenvolvidos na Entrega 1, durante a aplicação da metodologia Design Sprint. Nesse momento, a equipe elaborou protótipos, identificou fluxos de usuário e representou os principais processos por meio de diagramas BPMN.
+
+Esses insumos permitiram mapear as funcionalidades centrais do sistema (como criação de pedidos, cadastro de restaurantes, login de usuários, entre outros), refletidas agora na arquitetura apresentada no diagrama de pacotes. As funcionalidades que orientaram a produção do artefato têm origem direta na dinâmica do Design Sprint, especialmente na etapa de idealização do protótipo, que explorou diferentes perspectivas de uso: restaurante, estudante e entregador. Essa visão multifacetada possibilitou estruturar melhor os pacotes, garantindo que a modelagem represente de forma clara os papéis e interações previstos para o sistema.
+
 ## Diagrama
 
 ### Componentes do Diagrama
@@ -82,5 +87,6 @@ Estes pacotes representam as aplicações independentes que são instaladas nos 
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
+| 21/09/2025 |  `1.0`   | Referenciação da entrega 1 | [`@Joao151104`](https://github.com/Joao151104) | [`@Cayo`](https://github.com/Cayoalencar) |   22/09/2025    |
 | 21/09/2025 |  `1.0`   | Inclusão da documentação e o diagrama de pacotes | [`@Cayo`](https://github.com/Cayoalencar) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Ajustes na formatação do documento e adição de elementos na tabela de componentes | [`@Willian`](https://github.com/Wooo589) | [`@Cayo`](https://github.com/Cayoalencar) |   21/09/2025    |
