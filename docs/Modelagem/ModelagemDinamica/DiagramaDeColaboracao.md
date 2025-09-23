@@ -38,19 +38,19 @@ O diagrama de colaboração foi criado pensando em algumas das interações que 
 </div>
 
 A interação Fazer Pedido conta com os seguintes elementos (lifelines):
-- **:Comprador**: O usuário que está fazendo o pedido.
+- **Comprador**: O usuário que está fazendo o pedido.
 
-- **:Interface do Comprador**: A aplicação frontend no dispositivo do comprador.
+- **Interface do Comprador**: A aplicação frontend no dispositivo do comprador.
 
-- **:Servidor do Aplicativo**: O sistema backend que processa toda a lógica.
+- **Servidor do Aplicativo**: O sistema backend que processa toda a lógica.
 
-- **:Banco de Dados**: Armazena todos os dados persistentes (usuários, pedidos, restaurantes, itens).
+- **Banco de Dados**: Armazena todos os dados persistentes (usuários, pedidos, restaurantes, itens).
 
-- **:Sistema de Pagamento**: Serviço externo para processar transações financeiras.
+- **Sistema de Pagamento**: Serviço externo para processar transações financeiras.
 
-- **:Interface do Fornecedor**: A aplicação frontend usada pelo restaurante para gerenciar pedidos.
+- **Interface do Fornecedor**: A aplicação frontend usada pelo restaurante para gerenciar pedidos.
 
-- **:Interface do Entregador**: A aplicação frontend usada pelo motorista de entrega.
+- **Interface do Entregador**: A aplicação frontend usada pelo motorista de entrega.
 
 ### Interação "Entregar_Pedido"
 ![Diagrama de colaboração do projeto PodePedirFCTE](../../assets/Diagrama%20de%20Colaboração-Entregador.png)
@@ -171,3 +171,4 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 | 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.3`   | Adiciona Tabela de Elementos e de Contribuição. | [`@Ana Clara`](https://github.com/anabborges) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
 | 21/09/2025 |  `1.4`   | Adiciona Interação Solicitar Pedido. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
+| 22/09/2025 |  `1.5`   | Altera diagrama de Fazer Pedidos e do Entregador. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   22/09/2025    |
