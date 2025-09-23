@@ -48,6 +48,10 @@ O diagrama de casos de uso será utilizado como ferramenta central para represen
 
 A modelagem foi feita com base nos três principais atores: Aluno (Cliente), Fornecedor (Restaurante) e Entregador, para funções de gestão. Cada caso de uso foi desenhado com foco em entregar valor direto aos usuários [1].
 
+No que se refere ao processo de análise de informações para confecção do artefato, foram levados em consideração os seguintes pontos da primeira entrega:
+
+- [Design Sprint](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.DesignSprint), com foco na etapa de [prototype](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.5.Prototype) e [BPNM](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/Base/bpmn/1.3.ModelagemBPMN):  Expressam as relações entre atores, bem como suas interações com os protótipos produzidos e seus objetivos finais ao utilizar a plataforma. O diagrama de caso de uso foi obtido por meio da abstração das principais funcionalidades dos atores ao longo do fluxo principal de atividades da plataforma.
+
 ---
 
 # Referência Bibliográfica
