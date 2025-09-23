@@ -68,6 +68,7 @@ Estes pacotes representam as aplicações independentes que são instaladas nos 
 | :--------------------------------------------| |
 | [Cayo](https://github.com/Cayoalencar)              | Versão inicial da documentação e inclusão do diagrama de pacotes |
 | [Willian](https://github.com/Wooo589)               | Versão final da documentação e adição de elementos na tabela de componentes |
+| [João](https://github.com/Joao151104)               | Adicionou citações da entrega 1 |
 
 ## Referências bibliográficas
 
