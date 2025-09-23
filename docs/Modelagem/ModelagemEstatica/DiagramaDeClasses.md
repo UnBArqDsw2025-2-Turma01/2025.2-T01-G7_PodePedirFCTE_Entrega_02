@@ -5,6 +5,7 @@
 O Diagrama de classes é usado para descrever a estrutura estática de classes no sistema, permitindo definir os atributos, operações(métodos) e os relacionamentos entre as classes.
 
 ## Diagrama de Classes
+
 O Diagrama de Classes é um dos tipos mais importantes e populares da Linguagem de Modelagem Unificada (UML). Ele é um diagrama de estrutura, ou seja, o seu principal objetivo é descrever a estrutura estática de um sistema, mostrando os elementos que devem estar presentes e como eles se relacionam entre si.
 
 O diagrama funciona como uma "cópia" do sistema ou de seus componentes. Ele é fundamental na programação orientada a objetos, porque modela as classes que formarão o software a ser desenvolvido, os seus objetos principais e as interações entre eles.
@@ -18,8 +19,11 @@ O uso de diagramas de classes traz vantagens importantes para uma organização,
 
 ## Aplicação no projeto PodePedirFCTE
 
-O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relações e responsabilidades de cada componente.
+No que se refere ao processo de análise de informações para confecção do artefato, foram levados em consideração os seguintes pontos da primeira entrega:
 
+- [Design Sprint](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.DesignSprint), com foco na etapa de [prototype](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.5.Prototype):  Expressa a relação dos participantes na dinâmica da aplicação, bem como suas interações com as interfaces prototipadas e seus objetivos finais ao utilizar a plataforma. O diagrama de classes foi obtido por meio da abstração dos atores e funionalidades ao longo do fluxo principal de atividades da plataforma, sendo aqui expresso nas classes modeladas.
+
+O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relações e responsabilidades de cada componente.
 <p align="center">
 
   ![Diagrama de Classes](../../img/classes.svg)
