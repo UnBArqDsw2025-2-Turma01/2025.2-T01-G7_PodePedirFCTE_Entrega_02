@@ -30,6 +30,8 @@ O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relaçõe
 
 </p>
 
+* Métodos **set e get** estão subentendidos na modelagem de classes e, portanto, foram omitidos do diagrama.
+
 ### Classes
 
 Após observar a visão geral, é importante detalhar cada classe individualmente. 
