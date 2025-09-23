@@ -29,7 +29,9 @@ Esse diagrama corresponde a um **diagrama de sequência simplificado**, pois amb
 
 ## Aplicação no projeto
 
-O diagrama de colaboração foi criado pensando em algumas das interações que serão necessárias no projeto PodePedirFCTE.
+- O diagrama de colaboração foi dividido entre 3 membros da equipe, que trabalharam individualmente em diferentes interações. O contato foi mantido por mensagens para dúvidas e feedbacks da modelagem.
+- Para a criação do diagrama, os membros levaram em consideração tópicos debatidos na [Design Sprint](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.DesignSprint) realizada na [Entrega 1 do projeto](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/), com um foco especial nas etapas [Decide](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.4.Decide) e [Prototype](https://unbarqdsw2025-2-turma01.github.io/2025.2-T01-G7_PodePedirFCTE_Entrega_01/#/./Base/design-sprint/1.1.5.Prototype), onde houve uma maior tomada de decisões por parte do grupo;
+- Como ferramenta para a modelagem foi o utilizado o [Draw.io](https://www.drawio.com/).
 
 ### Interação "Fazer_Pedido"
 ![Diagrama de colaboração do projeto PodePedirFCTE](../../assets/Diagrama%20de%20Colaboração-fazer-pedidos.jpg)
@@ -172,3 +174,4 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 | 21/09/2025 |  `1.3`   | Adiciona Tabela de Elementos e de Contribuição. | [`@Ana Clara`](https://github.com/anabborges) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
 | 21/09/2025 |  `1.4`   | Adiciona Interação Solicitar Pedido. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 22/09/2025 |  `1.5`   | Altera diagrama de Fazer Pedidos e do Entregador. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   22/09/2025    |
+| 22/09/2025 |  `1.6`   | Adiciona tópicos de aplicação no projeto. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   22/09/2025    |
